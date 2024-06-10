@@ -1,0 +1,122 @@
+.cont__bag {
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+
+.left__list p {
+    font-size: 17px;
+}
+
+.left__list_2 {
+    margin-left: 30px;
+}
+
+.left__list_2 h2 {
+    font-family: Lora;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.left__list_2 p {
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nails__2 h2 {
+    font-family: Heebo;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.nails__2 p {
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.left_ {
+    width: 564px;
+    height: 163px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 10px 40px 0px #00000014;
+    border-radius: 10px;
+}
+
+.nails__1 {
+    padding: 0 15px;
+}
+
+.hovolalar {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1160px;
+}
+
+.havola__text a {
+    color: #3585F9;
+    font-family: Heebo;
+    font-size: 12.8px;
+    font-weight: 500;
+    line-height: 17.92px;
+    letter-spacing: 0.800000011920929px;
+    text-align: left;
+}
+
+.left__list__text h5 {
+    font-family: Heebo;
+    font-size: 12.8px;
+    font-weight: 500;
+    line-height: 17.92px;
+    letter-spacing: 0.800000011920929px;
+    color: #3585F9;
+}
+
+.left__list__text h4 {
+    font-family: Lora;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+}
+
+.left__list__text p {
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+@media screen and (max-width:1200px) {
+
+    .left__list__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left__list__text h4 {
+        text-align: center;
+    }
+
+    .hovolalar {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:800px)  {
+    .left_ {
+        display: flex;
+        flex-direction: column;
+        height: 250px;
+        text-align: center;
+        
+    }
+}

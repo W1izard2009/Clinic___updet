@@ -1,0 +1,105 @@
+.hero {
+  background-image: url('./img/62038392898a7f366d603a25_Photography_MFC_HomeHeader.jpeg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: aliceblue;
+  max-width: 100%;
+}
+
+.xizmat {
+  margin-bottom: 100px;
+  margin-right: 480px;
+  border: none;
+  background-color: #3585F9;
+  width: 159.06px;
+  height: 49.27px;
+  padding: 14px, 24.8px, 14.27px, 25px;
+  border-radius: 100px;
+}
+
+.cards__bialog {
+  max-width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.title {
+  color: black;
+  font-family: Lora;
+  font-size: 60.8px;
+  font-weight: 500;
+  line-height: 72.96px;
+  text-align: left;
+}
+
+.left {
+  max-width: 100%;
+}
+
+.xizmat li {
+  color: #fff;
+}
+
+.title span {
+  color: #3585F9;
+  font-family: Heebo;
+  font-size: 59.2px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.title img {
+  margin-left: 10px;
+  margin-top: -20px;
+}
+
+@media screen and (max-width: 1150px) {
+  .hero__kal__img {
+    margin-left: -200px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .hero__kal__img {
+    margin-left: -300px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .hero__kal__img {
+    display: none;
+  }
+
+  .title {
+    margin-top: 30px;
+    flex-wrap: wrap;
+    display: flex;
+
+  }
+
+  .title span {
+    margin-top: 20px;
+  }
+
+  .xizmat {
+    margin-top: 50px;
+
+  }
+
+  .xizmatlar__button {
+    max-width: 950px;
+
+  }
+}
+@media screen and (max-width:550px) {
+  .title span img  {
+    display: none;
+  }
+  
+}

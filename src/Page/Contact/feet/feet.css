@@ -1,0 +1,52 @@
+.cantact__map {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.cantact__navigation {
+    margin-top: 100px;
+    display: flex;
+    gap: 100px;
+}
+
+.map__digital {
+    margin-top: -250px;
+}
+
+.catact__map__text h5 {
+    font-family: Heebo;
+    font-size: 12.8px;
+    font-weight: 500;
+    line-height: 17.92px;
+    letter-spacing: 0.800000011920929px;
+    color: #3585F9;
+}
+
+.catact__map__text h4 {
+    font-family: Lora;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.catact__map__text p {
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.cantact__navigation h5 {
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    color: #3585F9;
+}
+
+.cantact__navigation p {
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}

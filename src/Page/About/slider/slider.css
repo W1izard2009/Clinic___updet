@@ -1,0 +1,39 @@
+ .left_button {
+   border: none;
+   height: 60px;
+   width: 60px;
+   border-radius: 10px;
+   margin-left: -1100px;
+   position: absolute;
+   margin-top: 300px;
+   color: #3585F9;
+   background-color: #fff;
+   box-shadow: 0px 0px 20px 0px #00000014;
+ }
+
+ .Slider__center {
+   display: flex;
+   justify-content: center;
+   max-width: 1160px;
+ }
+
+ .right_button {
+   position: absolute;
+   border: none;
+   margin-left: 1100px;
+   margin-top: 300px;
+   height: 60px;
+   width: 60px;
+   border-radius: 10px;
+   color: #3585F9;
+   background-color: #fff;
+   box-shadow: 0px 0px 20px 0px #00000014;
+ }
+ @media screen and (max-width:1200px) {
+  .left_button {
+    display: none;
+  }
+  .right_button {
+    display: none;
+  }
+ }

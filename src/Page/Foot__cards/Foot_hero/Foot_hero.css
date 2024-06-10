@@ -1,0 +1,16 @@
+.foot_hero {
+  height: 435px;
+  background-image: url('./img/Foot.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footiss__title {
+  color: black;
+  font-family: Lora;
+  font-size: 56px;
+  font-weight: 500;
+  padding: 67px 0;
+  line-height: 67.2px;
+  text-align: left;
+}

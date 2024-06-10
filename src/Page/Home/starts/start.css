@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.card__messega__top h5 {
+    font-family: Heebo;
+    font-size: 12.8px;
+    font-weight: 500;
+    line-height: 17.92px;
+    letter-spacing: 0.800000011920929px;
+    color: #3585F9;
+}
+
+.card__messega__top h4 {
+    font-family: Lora;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.asosiy__start h4 {
+    font-family: Heebo;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27.2px;
+}
+
+.card_start p {
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+
+}
+
+.card_start {
+    width: 275px;
+    height: 196px;
+    padding: 24px;
+    border-radius: 24px;
+    background: #3585F91A;
+}
+
+.card_starts {
+    max-width: 1160px;
+    display: flex;
+    gap: 20px;
+}
+
+.asosiy__start {
+    display: flex;
+    gap: 15px;
+}
+
+.starts__img h5 {
+    font-family: Heebo;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.04px;
+    color: #323233;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.starts__img {
+    display: flex;
+    margin-left: 60px;
+    margin-top: -15px;
+}
+
+.starts__img i {
+    color: #FCBF02;
+}
+
+.card_start1 {
+    width: 275px;
+    height: 241px;
+    padding: 24px;
+    border-radius: 24px;
+    background: #3585F91A;
+}
+
+.card_start1 h6 {
+    font-family: Heebo;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+    color: #32323380;
+}
+
+@media screen and (max-width: 1300px) {
+    .card__messega__top {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card_starts {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

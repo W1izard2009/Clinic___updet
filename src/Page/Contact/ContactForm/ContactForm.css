@@ -1,0 +1,56 @@
+textarea {
+    resize: none;
+}
+
+.form__send__gamil {
+    width: 1160px;
+    height: 354.19px;
+    border-radius: 16px;
+    box-shadow: 0px 10px 40px 0px #00000014;
+    display: flex;
+    justify-content: center;
+    margin-left: -5px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.send__name__email input {
+    width: 524px;
+    height: 45px;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-left: 60px;
+    border: 1px solid #D6DFE7F5;
+    font-family: Heebo;
+    color: #A0AEBD;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.56px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+.textarea textarea {
+    width: 1112px;
+    height: 150px;
+    border-radius: 20px;
+    border: 1px solid #D6DFE7F5;
+    outline: none;
+    padding: 20px;
+    font-family: Heebo;
+    color: #A0AEBD;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.56px;
+}
+
+.send__button {
+    width: 144.45px;
+    height: 45.19px;
+    border-radius: 100px;
+    background: #386BEAF5;
+    color: white;
+    border: none;
+    outline: none;
+}

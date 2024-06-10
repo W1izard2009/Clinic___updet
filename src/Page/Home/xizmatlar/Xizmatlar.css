@@ -1,0 +1,217 @@
+.Servic {
+    background: #F7F9FC;
+
+}
+
+
+.cards__bialog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1160px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+.sss {
+    width: 100vw;
+    height: 50vh;
+    background-color: yellow;
+}
+
+.xizmatlar {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.xizmatlar__text h5 {
+    font-family: Heebo;
+    font-size: 12.8px;
+    font-weight: 500;
+    line-height: 17.92px;
+    text-align: left;
+    color: #3585F9;
+
+}
+
+.xizmatlar__text h3 {
+    font-family: Lora;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+}
+
+.servis__so {
+
+    background-color: red;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sort__bo {
+    box-shadow: 0px 10px 40px 0px #00000014;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 16px;
+    background: #FFFFFF;
+    width: 370.66px;
+    height: 134.88px;
+    background-image: url('img/s.png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: 265px;
+
+}
+
+.sort__bo1 {
+    box-shadow: 0px 10px 40px 0px #00000014;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 16px;
+    background: #FFFFFF;
+    width: 370.66px;
+    height: 134.88px;
+    background-image: url('./img/div\ \(1\).png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: 265px;
+}
+
+.sort__bo2 {
+
+    box-shadow: 0px 10px 40px 0px #00000014;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 16px;
+    background: #FFFFFF;
+    width: 370.66px;
+    height: 134.88px;
+    background-image: url('./img/div\ \(2\).png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: 265px;
+}
+
+
+.sort__bo3 {
+    box-shadow: 0px 10px 40px 0px #00000014;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 16px;
+    background: #FFFFFF;
+    width: 370.66px;
+    height: 134.88px;
+    background-image: url('./img/div\ \(3\).png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: 265px;
+}
+
+.sort__bo4 {
+    box-shadow: 0px 10px 40px 0px #00000014;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 16px;
+    background: #FFFFFF;
+    width: 370.66px;
+    height: 134.88px;
+    background-image: url('./img/div\ \(4\).png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: 265px;
+}
+
+.sort__bo5 {
+    box-shadow: 0px 10px 40px 0px #00000014;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 16px;
+    background: #FFFFFF;
+    width: 370.66px;
+    height: 134.88px;
+    background-image: url('./img/div\ \(5\).png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: 265px;
+}
+
+.sort__bo6 {
+    box-shadow: 0px 10px 40px 0px #00000014;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 16px;
+    background: #FFFFFF;
+    width: 370.66px;
+    height: 134.88px;
+    background-image: url('./img/div\ \(6\).png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: 265px;
+
+}
+
+.box__title {
+    font-size: 19.2px;
+    font-weight: 500;
+    color: #323233;
+}
+
+.box__par {
+    margin-bottom: 40px;
+}
+
+.xizmatlar__texts h5 {
+    font-family: Heebo;
+    font-size: 12.8px;
+    font-weight: 500;
+    line-height: 17.92px;
+    text-align: left;
+    color: #3585F9;
+
+}
+
+.xizmatlar__texts h4 {
+    font-family: Lora;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+}
+
+@media screen and (max-width: 1200px) {
+    .cards__bialog {
+        display: flex;
+        max-width: 100%;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .xizmatlar__texts {
+        text-align: center;
+    }
+
+    .xizmatlar__texts h5 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .xizmatlar__texts h4 {
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+
+@media screen and (max-width: 1000px) {
+    .cards__bialog {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}

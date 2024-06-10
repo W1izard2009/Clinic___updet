@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+
+.footer__top {
+    background-image: url('./img/div\ \(2\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+}
+
+.footer__center {
+    padding-top: 100px;
+    color: white;
+}
+
+.footer__center h2 {
+    font-family: Lora;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+}
+
+.footer__center p {
+    margin-top: 10px;
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.book__button {
+    width: 190px;
+    height: 45px;
+    border-radius: 100px;
+    border: none;
+    margin-top: 50px;
+}
+
+.footer {
+    background: #3F4953;
+    color: white;
+    max-width: 100%;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    margin-top: -10px;
+}
+
+.row .footer__p {
+    margin-top: 40px;
+}
+
+.footer__h4 {
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 50.2px;
+}
+
+.row__up h5 {
+    font-family: Heebo;
+    font-size: 14.4px;
+    font-weight: 400;
+    line-height: 10px;
+}
+
+.row__down h5 {
+    font-family: Heebo;
+    font-size: 14.4px;
+    font-weight: 400;
+    line-height: 10px;
+}
+
+.row__up .col {
+    margin-top: 40px;
+}
+
+.row__down .col {
+    margin-top: 30px;
+}
+
+.row .col__down {
+    margin-top: 60px;
+}
+
+@media screen and (max-width:970px) {
+
+    .row__up {
+        text-align: center;
+        display: flex;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+
+    }
+
+    .row__up .col__up {
+        color: #000;
+        height: 350px;
+        padding-top: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0px 10px 40px 0px #00000014;
+    }
+
+    .row__down .col__up {
+        width: 440px;
+        color: #000;
+        align-items: center;
+        height: 400px;
+        padding-top: 20px;
+        background-color: white;
+        justify-content: center;
+        border-radius: 10px;
+        box-shadow: 0px 10px 40px 0px #00000014;
+
+    }
+
+
+    .row__down {
+        text-align: center;
+        display: flex;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 40px;
+    }
+    .footer__centers h4 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .footer__centers h5 {
+        font-size: 20px;
+    }
+}

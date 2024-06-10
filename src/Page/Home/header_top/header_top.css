@@ -1,0 +1,45 @@
+.header_top {
+    background: #3F4953;
+    width: 100%;
+    height: 36px;
+}
+
+.header_text {
+    display: flex;
+    justify-content: space-between;
+}
+.top__navi__img {
+    margin-top: -5px;
+}
+.top__navi {
+    display: flex;
+    gap: 20px;
+}
+.top__navi {
+    padding: 10px 0;
+}
+.tel {
+    display: flex;  
+    gap: 10px;
+}
+.tel li {
+    font-family: Heebo;
+    font-size: 14.4px;
+    font-weight: 500;
+    line-height: 17.28px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.place {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+.place li {
+    font-family: Heebo;
+    font-size: 14.4px;
+    font-weight: 500;
+    line-height: 17.28px;
+    color: #fff;
+}
