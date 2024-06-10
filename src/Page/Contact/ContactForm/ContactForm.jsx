@@ -18,7 +18,7 @@ function Contactform() {
             <input
               type="hidden"
               name="_next"
-              defaultValue="https://clinic-website-sigma.vercel.app/sucsse.html"
+              defaultValue="https://clinic-updet.vercel.app/sucsse.html"
             />
             <input type="hidden" name="_template" defaultValue="box" />
             <button type="submit" onclick="fn()" className="send__button">
